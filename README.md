@@ -1,5 +1,3 @@
-==========================================================================================
-
 NOTICE: ARCHITECTURAL REPORT & VERIFIED PROOF OF CONCEPT (PoC)
 
 THIS SOFTWARE IS PROVIDED AS A PURE ACADEMIC LABORATORY PROOF OF CONCEPT.
