@@ -8,7 +8,7 @@ WE ARE STUDYING 'NON-SYSTEM-CRITICAL ASYNCHRONOUS EVENTS/TASKS'
 CRITICAL HARDWARE WARNING:
 This software executes low-level kernel-space, memory, and hardware-near process manipulations. Improper configuration, asymmetric execution loops, or inadequate thermal monitoring WILL RESULT IN INSTANT HARDWARE MUTATION, THERMAL OVER-SATURATION, OR PERMANENT DESTRUCTION OF THE SILICON CHASSIS AND STORAGE MEDIA.
 
-==========================================================================================
+==============================================================================
 
 ⚠️ System Latency & Hardware Disclaimer
 
@@ -20,7 +20,7 @@ State & Memory Contamination: Cross-session cache pollution, transient data memo
 Operational Execution Errors: Technical incompetence, improper deployment configurations, or out-of-bounds implementation environments.
 SUPPORT IS STRICTLY NON-EXISTENT. IF YOU MUTATE YOUR INFRASTRUCTURE, YOU OWN THE BREAK.
 
-==========================================================================================
+==============================================================================
 
 ## GDPR Compliance Metadata
 
