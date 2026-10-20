@@ -22,16 +22,32 @@ SUPPORT IS STRICTLY NON-EXISTENT. IF YOU MUTATE YOUR INFRASTRUCTURE, YOU OWN THE
 
 ==============================================================================
 
-## GDPR Compliance Metadata
+## **GDPR Compliance Validation (PoC Limitations)**
 
-This module supports the documentation of GDPR-related metadata for data-processing assets. It includes classifications for personal, special-category, biometric, and genetic data; legal bases for processing; and data-subject rights.
+This application performs **pattern-based detection** of potential GDPR violations. It is **not a comprehensive compliance solution** and should be understood as an initial screening tool.
 
-Processing metadata supports documenting the data category, legal basis, purpose, number of affected data subjects, retention period, third-party sharing, and applicable data-subject rights. It also supports recording an optional legitimate-interest assessment.
+### **What This PoC Validates**
 
-The data protection by design and default metadata supports documenting DPIA status, data-minimization, storage-limitation, and purpose-limitation measures, as well as transparency information. Security metadata supports recording information about encryption, access controls, pseudonymization, testing, incident-response planning, and employee training.
+The validator checks for:
 
-Incident metadata supports documenting breach risk assessments, notification requirements, breach-register status, DPIA triggers, and a high-risk threshold. The asset-level record supports organizing this information alongside asset identifiers, data protection authority contact details, the date of the most recent DPIA, and a compliance score.
+- **Unencrypted sensitive data** — detects keywords like `password`, `api_key`, `credit_card` (regex pattern matching)
+- **Plaintext email storage** — identifies email fields stored without encryption notation
+- **Missing consent documentation** — checks for `purpose` or `processing_purpose` fields
+- **Missing retention policy** — verifies presence of `retention_days` or `retention_policy` fields
+- **Unmasked identity data** — flags fields like `full_name`, `dob`, `personnummer`
 
+### **Important Limitations**
+
+⚠️ **This PoC does NOT:**
+- Perform cryptographic validation of encryption claims
+- Verify actual data encryption or hashing implementation
+- Audit third-party data processors or sub-processors
+- Validate compliance with Articles 5–34 of GDPR comprehensively
+- Replace legal review or professional compliance audits
+
+### **Intended Use**
+
+This tool is designed as a **rapid screening mechanism** to flag obvious compliance gaps in JSON payloads. Results should be **reviewed by compliance officers** before being relied upon for production decisions.
 
 ==========================================================================================
 
