@@ -1,3 +1,29 @@
+==========================================================================================
+
+NOTICE: ARCHITECTURAL REPORT & VERIFIED PROOF OF CONCEPT (PoC)
+
+THIS SOFTWARE IS PROVIDED AS A PURE ACADEMIC LABORATORY PROOF OF CONCEPT.
+
+IT IS NOT PRODUCTION-READY AND IS RUN ENTIRELY AT THE OPERATOR'S OWN RISK.
+WE ARE STUDYING 'NON-SYSTEM-CRITICAL ASYNCHRONOUS EVENTS/TASKS'
+
+CRITICAL HARDWARE WARNING:
+This software executes low-level kernel-space, memory, and hardware-near process manipulations. Improper configuration, asymmetric execution loops, or inadequate thermal monitoring WILL RESULT IN INSTANT HARDWARE MUTATION, THERMAL OVER-SATURATION, OR PERMANENT DESTRUCTION OF THE SILICON CHASSIS AND STORAGE MEDIA.
+
+==========================================================================================
+
+⚠️ System Latency & Hardware Disclaimer
+
+THE AUTHOR ACCEPTS ABSOLUTELY ZERO LIABILITY FOR:
+
+Thermal Aggression & Hardware Stress: Burned motherboard circuits, CPU core failures, thermal throttling degradation, or destroyed legacy hardware appliances resulting from excessive I/O execution loops under unthrottled benchmark conditions.
+Regulatory & Financial Non-Compliance: Any operational or regulatory compliance failures under GDPR, EU AI Act, NIS 2, DORA, SCHREMS II or the ZTA caused by improper deployment, modification of core pipelines, or infrastructure misconfiguration.
+State & Memory Contamination: Cross-session cache pollution, transient data memory contamination, or atomic pipeline leaks due to unauthorized modification of the core architecture.
+Operational Execution Errors: Technical incompetence, improper deployment configurations, or out-of-bounds implementation environments.
+SUPPORT IS STRICTLY NON-EXISTENT. IF YOU MUTATE YOUR INFRASTRUCTURE, YOU OWN THE BREAK.
+
+==========================================================================================
+
 ## GDPR Compliance Metadata
 
 This module supports the documentation of GDPR-related metadata for data-processing assets. It includes classifications for personal, special-category, biometric, and genetic data; legal bases for processing; and data-subject rights.
@@ -6,7 +32,4 @@ Processing metadata supports documenting the data category, legal basis, purpose
 
 The data protection by design and default metadata supports documenting DPIA status, data-minimization, storage-limitation, and purpose-limitation measures, as well as transparency information. Security metadata supports recording information about encryption, access controls, pseudonymization, testing, incident-response planning, and employee training.
 
-Incident metadata supports documenting breach risk assessments, notification requirements, breach-register status, DPIA triggers, and a high-risk threshold. The asset-level record supports organizing this information alongside asset identifiers, data protection authority contact details, the date of the most recent DPIA, and a compliance score.
-
-================================================================================
-<br> This README describes the GDPR metadata model only. Disclaimers, limitations of liability, and other project-wide legal notices are maintained in the main repository and are not stated or defined here.
+Incident metadata supports documenting breach risk assessments, notification requirements, breach-register status, DPIA triggers, and a high-risk threshold. The asset-level record supports organizing this information alongside asset identifiers, data protection authority contact details, the date of the most recent DPIA, and a compliance score..
