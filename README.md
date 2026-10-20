@@ -18,6 +18,7 @@ Thermal Aggression & Hardware Stress: Burned motherboard circuits, CPU core fail
 Regulatory & Financial Non-Compliance: Any operational or regulatory compliance failures under GDPR, EU AI Act, NIS 2, DORA, SCHREMS II or the ZTA caused by improper deployment, modification of core pipelines, or infrastructure misconfiguration.
 State & Memory Contamination: Cross-session cache pollution, transient data memory contamination, or atomic pipeline leaks due to unauthorized modification of the core architecture.
 Operational Execution Errors: Technical incompetence, improper deployment configurations, or out-of-bounds implementation environments.
+<br>
 SUPPORT IS STRICTLY NON-EXISTENT. IF YOU MUTATE YOUR INFRASTRUCTURE, YOU OWN THE BREAK.
 
 ==============================================================================
