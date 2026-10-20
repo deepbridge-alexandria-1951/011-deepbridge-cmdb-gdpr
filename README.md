@@ -53,7 +53,7 @@ The validator checks for:
 
 This tool is designed as a **rapid screening mechanism** to flag obvious compliance gaps in JSON payloads. Results should be **reviewed by compliance officers** before being relied upon for production decisions.
 
-==========================================================================================
+==============================================================================
 
 ## Development Approach
 
