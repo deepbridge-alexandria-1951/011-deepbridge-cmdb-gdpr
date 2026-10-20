@@ -31,3 +31,13 @@ Processing metadata supports documenting the data category, legal basis, purpose
 The data protection by design and default metadata supports documenting DPIA status, data-minimization, storage-limitation, and purpose-limitation measures, as well as transparency information. Security metadata supports recording information about encryption, access controls, pseudonymization, testing, incident-response planning, and employee training.
 
 Incident metadata supports documenting breach risk assessments, notification requirements, breach-register status, DPIA triggers, and a high-risk threshold. The asset-level record supports organizing this information alongside asset identifiers, data protection authority contact details, the date of the most recent DPIA, and a compliance score.
+
+
+==========================================================================================
+
+## Development Approach
+
+This application was architected with AI assistance. The architect specified the requirements, 
+constraints (GDPR compliance, Python 3.12, PostgreSQL 14, Ollama 0.33), and functional specifications. 
+The AI language model generated the implementation, database schemas, and documentation accordingly.
+
