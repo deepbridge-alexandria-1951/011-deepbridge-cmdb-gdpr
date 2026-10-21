@@ -1,4 +1,4 @@
-# GDPR: Your Essential Guide to Europe's Data Protection Game-Changer
+# GDPR: Your Essential Guide to Europe's Data Protection
 
 ## Overview
 
