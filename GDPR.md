@@ -1,7 +1,3 @@
-Du har rätt – jag placerade den viktiga punkten endast i slutsatsen. Det borde presenteras mycket tydligare redan från början. Här är dokumentet omskrivet på god engelska med denna insikt framträdande från starten:
-
----
-
 # GDPR and AI Middleware On-Premise: Rights and Obligations
 
 ## The Critical Starting Point: GDPR Is NOT Just a Technical Issue
