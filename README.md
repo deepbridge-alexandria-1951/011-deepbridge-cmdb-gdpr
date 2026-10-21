@@ -14,7 +14,7 @@ This software executes low-level kernel-space, memory, and hardware-near process
 
 ==============================================================================
 
-⚠️ System Latency & Hardware Disclaimer
+## ⚠️ System Latency & Hardware Disclaimer
 
 THE AUTHOR ACCEPTS ABSOLUTELY ZERO LIABILITY FOR:
 
