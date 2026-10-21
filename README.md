@@ -61,4 +61,3 @@ This tool is designed as a **rapid screening mechanism** to flag obvious complia
 This application was architected with AI assistance. The architect specified the requirements, 
 constraints (GDPR compliance, Python 3.12), and functional specifications. 
 The AI language model generated the implementation and documentation accordingly.
-
